@@ -1,0 +1,55 @@
+html, body{
+    background: black;
+}
+*{
+    margin: 0;
+}
+.slider {
+    width: 400px;
+    height: 400px;
+    border: 15px solid white;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2rem;
+    // overflow: hidden;
+}
+.slider img{
+    max-width: 400px;
+    width: 100%;
+}
+.prev-button {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    margin-top: 50%;
+    z-index: 1000;
+    right: 14px;
+    font-size: 2rem;
+    line-height: 2rem;
+    box-shadow: 3px 3px 3px #000;
+}
+.next-button{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    margin-top: 50%;
+    z-index: 1000;
+    left: 14px;
+    font-size: 2rem;
+    line-height: 2rem;
+    box-shadow: 3px 3px 3px #000;
+}
+.slider-line {
+    position: relative;
+    display: flex;
+}
